@@ -30,9 +30,9 @@ let count = 10
 
 while(count >= 1){
     console.log(count)
-    // count = count - 1
+    count = count - 1
     // count --
-    // count++
+    
 }
 
 
@@ -49,12 +49,34 @@ while(count >= 1){
 
 // Print from 0 to 10, in multiples of 2
 
-let count = 0
+// let count = 0
 
-while (count <= 10) {
-    console.log(count)
-    count = count + 2
-}
+// while (count <= 10) {
+//     console.log(count)
+//     count = count + 2
+//     count += 2
+// }
+
+// // DO - WHILE Loop
+
+// let count = 0
+// do {
+//     console.log(count)
+//     count += 2
+// } while (count <= 20)
+
+
+    // FOR loop
+
+    for(let i = 0; i <10; i++) {
+    //  Code you want to run
+    }
+
+    // Challange - print 1 to 50 in your console using the FOR loop
+    
+    for(let i = 1; i <= 50; i++) {
+        console.log(i)
+    }
 
 
 
