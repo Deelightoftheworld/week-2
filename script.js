@@ -26,14 +26,14 @@
 
 // Print from 10 to 1 in your brower console
 
-let count = 10
+// let count = 10
 
-while(count >= 1){
-    console.log(count)
-    count = count - 1
-    // count --
+// while(count >= 1){
+//     console.log(count)
+//     count = count - 1
+//     // count --
     
-}
+// }
 
 
 
@@ -68,15 +68,50 @@ while(count >= 1){
 
     // FOR loop
 
-    for(let i = 0; i <10; i++) {
-    //  Code you want to run
-    }
+    // for(let i = 0; i <10; i++) {
+    // //  Code you want to run
+    // }
 
-    // Challange - print 1 to 50 in your console using the FOR loop
+    // // Challange - print 1 to 50 in your console using the FOR loop
     
-    for(let i = 1; i <= 50; i++) {
-        console.log(i)
-    }
+    // for(let i = 1; i <= 50; i++) {
+    //     console.log(i)
+    // }
+
+
+// ARRAYS
+
+const myArray = ["Asiya",4, "Jamila", true, "Gift", "Martha", "Deborah",undefined, [1,2,3], false,`Today is a good day`, "Deborah is paying apt attention in class"]
+// console.log(myArray)
+// console.log(myArray[5])
+// console.log(myArray[1])
+
+// let length = myArray.length
+// console.log(myArray[length - 1])
+
+
+// console.log(myArray)
+
+// myArray.push("laptop")
+// console.log(myArray)
+
+// myArray.pop()
+// console.log(myArray.length)
+
+// myArray.unshift("Emmanuel")
+// console.log(myArray)
+
+// myArray.shift()
+// console.log(myArray)
+
+
+// console.log(myArray.indexOf(undefined))
+
+// myArray.splice(7, 2)
+myArray.splice(7, 2, "I am new here", "I am learning JavaScript")
+console.log(myArray)
+
+
 
 
 
