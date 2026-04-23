@@ -1,115 +1,99 @@
-//Loops - Repeated action
+const names = ["Asiya", 
+    "Jemila",
+     "Martha", 
+     "Deborah",
+     [
+        "Oxblood",
+         "blue",
+          "pink",
+           "army-green",
+        [1,
+            2,
+            8,
+            0,
+            true
+        ]
+    ] 
+]
 
-/**
- * Challange - Print numbers 1 to 10 in your brower console
- */
+// console.log(names)
 
-// WHILE loop
-// let num = 1
+// // console.log(names[0])
+// console.log(names.length)
+// console.log(names[4])
+// console.log(names[4][2])
 
-// console.log("Start")
-// while (num <= 10) {
-//     console.log(num)
-//     num = num + 1
+// console.log(names[4][4][3])
+
+const letters = [`w`, `y`, `s`, `a`,`undefined`]
+const name = "Constantine"
+// console.log(name.split())
+// console.log(name.split(""))
+
+
+// let sentance = `Obi is a boy`
+// console.log(sentance.split())
+// console.log(sentance.split(""))
+// console.log(sentance.split(" "))
+
+
+// const ip = "192.168.1.1"
+// console.log(ip.split("."))
+
+
+// const random = "Wasila-is-using-a-charger"
+// console.log(random.split("-"))
+
+
+// COMBINIG ARRAYS AND LOOPS
+
+// Challange 1- Print an array of numbers from 1 to 50
+
+// let numbers = []
+
+// for(let i = 1; i <= 50; i++){
+//     numbers.push(i)
 // }
 
-// console.log("End")
+// let counter = 1
 
-// Challange - Print Deborah 10 times in your brower console
-
-// let count =1
-
-// while(count <= 10){
-//     console.log("Deborah" + count)
-//     count = count + 1
-// }
-
-// Print from 10 to 1 in your brower console
-
-// let count = 10
-
-// while(count >= 1){
-//     console.log(count)
-//     count = count - 1
-//     // count --
-    
-// }
-
-
-
-// // Print from 10 t0 0
-
-// let count = 10
-
-// while(count >= 0){
-//     console.log(count)
-//     count = count - 1
-// }
-
-
-// Print from 0 to 10, in multiples of 2
-
-// let count = 0
-
-// while (count <= 10) {
-//     console.log(count)
-//     count = count + 2
-//     count += 2
-// }
-
-// // DO - WHILE Loop
-
-// let count = 0
 // do {
-//     console.log(count)
-//     count += 2
-// } while (count <= 20)
+//     numbers.push(counter)
+//     counter+= 1
+// } while (counter <= 50)
 
 
-    // FOR loop
-
-    // for(let i = 0; i <10; i++) {
-    // //  Code you want to run
-    // }
-
-    // // Challange - print 1 to 50 in your console using the FOR loop
-    
-    // for(let i = 1; i <= 50; i++) {
-    //     console.log(i)
+    // let counter = 1
+    // while(counter <= 50){
+    //     numbers.push(counter)
+    //     counter+= 1
     // }
 
 
-// ARRAYS
 
-const myArray = ["Asiya",4, "Jamila", true, "Gift", "Martha", "Deborah",undefined, [1,2,3], false,`Today is a good day`, "Deborah is paying apt attention in class"]
-// console.log(myArray)
-// console.log(myArray[5])
-// console.log(myArray[1])
+// console.log(numbers)
+// const jointNumbers = numbers.join(", ")
+// // console.log(jointNumbers)
+// const splitNumbers = jointNumbers.split(", ")
+// // console.log(splitNumbers)
 
-// let length = myArray.length
-// console.log(myArray[length - 1])
-
-
-// console.log(myArray)
-
-// myArray.push("laptop")
-// console.log(myArray)
-
-// myArray.pop()
-// console.log(myArray.length)
-
-// myArray.unshift("Emmanuel")
-// console.log(myArray)
-
-// myArray.shift()
-// console.log(myArray)
+// console.log("Obi is a boy".split())
 
 
-// console.log(myArray.indexOf(undefined))
 
-// myArray.splice(7, 2)
-myArray.splice(7, 2, "I am new here", "I am learning JavaScript")
-console.log(myArray)
+// Challange 2- print from 50 t0 1
+
+let numbers = []
+
+for(let i = 50; i >= 1; i--){
+    numbers.unshift(i)
+}
+
+ console.log(numbers)
+
+
+
+
 
 
 
